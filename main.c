@@ -18,6 +18,9 @@ int main(int argc, char** argv)
   	gtk_window_set_default_size(GTK_WINDOW(myWindow), 480, 272);
   	gtk_window_set_title(GTK_WINDOW(myWindow), "Atividade Academica - ED2");
 
+
+   InterfaceInit();
+
   	g_signal_connect(G_OBJECT(myWindow), "destroy",
   	G_CALLBACK(gtk_main_quit), NULL);
 

@@ -2,6 +2,7 @@
 #define EXCEPTION_H_
 
 #include <setjmp.h>
+#include <stdlib.h>
 
 
 #define try    										\
@@ -192,6 +193,7 @@
 	catch(NullPointerException)							\
 	{													\
 		PrintExceptionStdOut(NullPointerException);		\
+		abort();										\
 	}
 
 
