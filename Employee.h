@@ -12,7 +12,8 @@ typedef struct Employee
 	unsigned char name[MAX_NAME_EMPLOYEE];
 	unsigned short age;
 	float salary;
-	unsigned int code;
+	unsigned int codeOfTheEmployee;
+	Integer next;
 }*Employee;
 
 

@@ -1,12 +1,11 @@
 #ifndef HASH_H_
 #define HASH_H_ 
 
-
-typedef void** Hash;
-
+#include <stdio.h>
 
 
-Hash newTableHash();
+
+void newTableHash(FILE** file);
 
 
 #endif

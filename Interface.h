@@ -5,8 +5,6 @@
 #include <gtk/gtk.h>
 
 
-
-extern GtkApplication* myApp;
 extern GtkWidget* myWindow;
 
 
